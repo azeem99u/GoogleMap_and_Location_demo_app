@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.saifi369.mygooglemaps.MainActivity">
+    <item
+        android:id="@+id/track_location"
+        android:orderInCategory="99"
+        android:title="Location Tracker"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map_type_none"
+        android:orderInCategory="100"
+        android:title="None"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/map_type_normal"
+        android:orderInCategory="101"
+        android:title="Normal"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/satellite"
+        android:orderInCategory="102"
+        android:title="Satellite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map_type_terrain"
+        android:orderInCategory="103"
+        android:title="Terrain"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map_type_hybrid"
+        android:orderInCategory="104"
+        android:title="Hybrid"
+        app:showAsAction="never" />
+
+</menu>

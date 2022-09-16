@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GoogleMapDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="google_maps_api_key">AIzaSyDl82M2d3pj9D0IUp_wzK3hHWquXq1bP1U</string>
+
+
+    <plurals name="num_locations_reported">
+        <item quantity="zero">NO Location reported</item>
+        <item quantity="one">One Location reported</item>
+        <item quantity="other">%d Locations reported</item>
+
+
+    </plurals>
+</resources>
